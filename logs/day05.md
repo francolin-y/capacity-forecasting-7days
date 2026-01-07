@@ -17,3 +17,8 @@ Turn forecasting/anomaly outputs into an operationally actionable daily report.
 ## Next
 - Add plots to the report (trend + risk timeline)
 - Orchestrate the pipeline (cron/Airflow) to run daily without manual steps
+
+## Decision
+- **Decision:** SCALE_UP
+- **Rationale:** SLO breach observed during predictable peak window without traffic anomalies.
+- **Confidence:** High (behavior conforms to expected seasonality)
